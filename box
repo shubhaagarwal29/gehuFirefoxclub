@@ -1,0 +1,64 @@
+
+<html>
+     
+    <head>
+         <title>Title Name will go here</title>
+    </head>
+     
+    <style>
+        #border_radius
+        {
+            border:2px solid;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px;
+            background: #6AAFCF;
+            border-radius:15px;
+            -moz-border-radius:25px; /* For Firefox Browser */
+            -webkit-border-radius: 15px; /* For Safari and Google Chrome Browser */
+            -o-border-radius: 25px /* For Opera Browser */
+        }
+ 
+        #box_shadow
+        {
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px;
+            background: #6AAFCF;
+            -moz-box-shadow: 15px 15px 5px #888245; /* For Firefox/Mozilla */
+            -webkit-box-shadow: 15px 15px 5px #888245; /* For Google Chrome and Safari */
+            -o-box-shadow: 15px 15px 5px #888245; /* For Opera */
+            box-shadow: 15px 15px 5px #888245;
+        }
+         
+        #border_image
+        {
+            border-width: 15px;
+            -moz-border-image:url(media/border.png) 30 30 round; /* Firefox */
+            -webkit-border-image:url(media/border.png) 30 30 round; /* Safari and Chrome */
+            -o-border-image:url(media/border.png) 30 30 round; /* Opera */
+            border-image:URL("../images/makeit.bmp") 30 10 round;
+        }                
+ 
+    </style>
+     
+    <body>
+ 
+        <div id="border_radius">
+            With the help of border-radius properties, we can make the rounded corners border.
+        </div>
+         
+        <div id="box_shadow">
+            With the help of box-shadow properties, we can create the shadow for a box.
+        </div>        
+        <br> 
+		<br>
+        <div id="border_image">
+            You can see the customized border. This could be either *.png or *.jpg format.
+        </div>        
+ 
+    </body>
+     
+</html>
